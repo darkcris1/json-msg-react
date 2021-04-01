@@ -6,7 +6,7 @@
 <h1 align="center">json-msg-react</h1>
 <div align="center">
 
-[![NPM](https://img.shields.io/npm/v/use-hammer.svg)](https://www.npmjs.com/package/use-hammer) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/json-msg-react.svg)](https://www.npmjs.com/package/json-msg-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 </div>
 
@@ -14,6 +14,10 @@
 
 ```bash
 npm install --save json-msg-react
+```
+or
+```bash
+yarn add -D json-msg-react
 ```
 
 ## Usage
