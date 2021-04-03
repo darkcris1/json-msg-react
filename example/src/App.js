@@ -33,7 +33,7 @@ const App = () => {
   return (
     <Container>
       <Navbar className="shadow-sm">
-        <Navbar.Brand href="/">JSON-MSG REACT</Navbar.Brand>
+        <Navbar.Brand href="/json-msg-react">JSON-MSG REACT</Navbar.Brand>
         <Nav className="ml-auto">
           <Button
             variant="secondary"
