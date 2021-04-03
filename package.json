@@ -23,6 +23,9 @@
   "dependencies": {
     "json-msg": "^1.2.0"
   },
+  "files": [
+    "dist/"
+  ],
   "devDependencies": {
     "@babel/core": "7.13.14",
     "@babel/runtime": "7.13.10",
