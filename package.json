@@ -2,7 +2,7 @@
   "name": "json-msg-react",
   "version": "1.0.0",
   "description": "Make form validation easier",
-  "author": "snyung",
+  "author": "Cris Fandiño",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "browser": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
