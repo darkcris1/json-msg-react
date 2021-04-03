@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAMA,YACE,WAAY,CACZ,YAAa,CACb,qBACF","file":"main.aeef0493.chunk.css","sourcesContent":["/* body {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: sans-serif;\r\n} */\r\n\r\n.sample-div{\r\n  width: 100px;\r\n  height: 100px;\r\n  border: 1px solid #000\r\n}\r\n"]}
