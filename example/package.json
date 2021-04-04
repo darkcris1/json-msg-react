@@ -1,14 +1,16 @@
 {
-  "name": "use-hammer-example",
-  "homepage": "https://snyung.github.io/use-hammer",
+  "name": "json-msg-react-example",
+  "homepage": "https://darkcris1.github.io/json-msg-react",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.6.0",
+    "json-msg-react": "link:..",
     "react": "link:../node_modules/react",
-    "react-dom": "16.13.1",
-    "react-scripts": "3.4.3",
-    "use-hammer": "link:.."
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

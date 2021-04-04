@@ -1,8 +1,8 @@
 {
   "name": "json-msg-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make form validation easier",
-  "author": "snyung",
+  "author": "Cris Fandiño",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "browser": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
@@ -23,6 +23,9 @@
   "dependencies": {
     "json-msg": "^1.2.0"
   },
+  "files": [
+    "dist/"
+  ],
   "devDependencies": {
     "@babel/core": "7.13.14",
     "@babel/runtime": "7.13.10",
@@ -53,7 +56,9 @@
   "keywords": [
     "react",
     "hook",
-    "longpress",
-    "hammer"
+    "form",
+    "json-msg",
+    "react validation",
+    "formik"
   ]
 }

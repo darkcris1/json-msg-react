@@ -1,29 +1,16 @@
-import { useMyHook } from './'
-import { renderHook, act } from "@testing-library/react-hooks";
+import { useForm } from './'
+import { renderHook } from '@testing-library/react-hooks'
 
-// mock timer using jest
-jest.useFakeTimers();
-
-describe('useMyHook', () => {
+describe('useForm Hook', () => {
   it('updates every second', () => {
-    const { result } = renderHook(() => useMyHook());
+    const { result } = renderHook(() => useForm())
+    const { result: result2 } = renderHook(() =>
+      useForm({ username: 'user123' }),
+    )
+    const res = result.current
+    const res2 = result2.current
 
-    expect(result.current).toBe(0);
-
-    // Fast-forward 1sec
-    act(() => {
-      jest.advanceTimersByTime(1000);
-    });
-
-    // Check after total 1 sec
-    expect(result.current).toBe(1);
-
-    // Fast-forward 1 more sec
-    act(() => {
-      jest.advanceTimersByTime(1000);
-    });
-
-    // Check after total 2 sec
-    expect(result.current).toBe(2);
+    expect(res.data).toBe({})
+    expect(res2.data.username).toBe('user123')
   })
 })

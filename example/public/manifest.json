@@ -1,6 +1,6 @@
 {
-  "short_name": "use-hammer",
-  "name": "use-hammer",
+  "short_name": "json-msg-react",
+  "name": "json-msg-react",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
