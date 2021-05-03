@@ -14,9 +14,9 @@ This might be similar to [Formik](https://formik.org/) but in a hook form , and 
 
 ## Prerequisite
 
-- Basic knowledge of [json-msg](json-msg.vercel.app) for building schema
+- Basic knowledge of [json-msg](https://json-msg.vercel.app) for building schema
 
-> Check json-msg [documentation](json-msg.vercel.app) here
+> Check json-msg [documentation](https://json-msg.vercel.app) here
 
 ## Install
 
